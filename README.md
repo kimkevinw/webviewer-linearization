@@ -48,7 +48,6 @@ client/
             lib/        - folder containing WebViewer files
     src/
         App.jsx         - main file defining WebViewer frontend
-node_modules/           - required dependencies 
 server/ 
     files/              - static folder serving the files
     server.js           - main file defining the server configurations
