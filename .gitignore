@@ -12,6 +12,8 @@ dist
 dist-ssr
 *.local
 
+DS_Store
+
 # WebViewer library
 client/public/webviewer
 
