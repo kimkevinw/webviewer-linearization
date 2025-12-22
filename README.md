@@ -17,18 +17,11 @@ A license key is required to run WebViewer. You can obtain a trial key in our [g
 
 Before you begin, make sure your development environment includes [Node.js](https://nodejs.org/en/). Node 20 recommended.
 
-
 ## Install
 
-
 ```
-cd client
-npm install
-```
-
-For Server: 
-```
-cd server
+git clone --depth=1 https://github.com/ApryseSDK/webviewer-samples.git
+cd webviewer-samples/webviewer-linearization
 npm install
 ```
 
@@ -42,33 +35,22 @@ Once installed, copy the Core & UI folders into the path being used by the viewe
 A post install script (copy-webviewer-files.cjs) is included to automate this process
 
 ## Run
-
-Client: 
 ```
-npm run dev
+npm start
 ```
-
-Server: 
-```
-npm run start
-```
-
 
 ## Project structure
 
 ```
 client/ 
-    node_modules/       - required dependencies 
     public/ 
-        files/          - folder for the frontend
         webviewer/
             lib/        - folder containing WebViewer files
     src/
         App.jsx         - main file defining WebViewer frontend
-
+node_modules/           - required dependencies 
 server/ 
     files/              - static folder serving the files
-    node_modules/       - required dependencies
     server.js           - main file defining the server configurations
 ```
 

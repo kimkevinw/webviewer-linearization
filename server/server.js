@@ -1,3 +1,7 @@
+// ES6 Compliant Syntax
+// GitHub Copilot - Claude Sonnet 4.5 - December 22, 2025
+// server.js
+
 import express from 'express';
 import cors from 'cors';
 import path from 'path';
