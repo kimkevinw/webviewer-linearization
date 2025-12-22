@@ -1,3 +1,7 @@
+// ES6 Compliant Syntax
+// GitHub Copilot - Claude Sonnet 4.5 - December 22, 2025
+// eslint.config.js
+
 import js from '@eslint/js'
 import globals from 'globals'
 import reactHooks from 'eslint-plugin-react-hooks'
