@@ -1,3 +1,7 @@
+// ES6 Compliant Syntax
+// GitHub Copilot - Claude Sonnet 4.5 - December 22, 2025
+// main.jsx
+
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import './index.css'

@@ -1,3 +1,7 @@
+// ES6 Compliant Syntax
+// GitHub Copilot - Claude Sonnet 4.5 - December 22, 2025
+// App.jsx
+
 import { useEffect, useRef, useState } from 'react'
 import WebViewer from '@pdftron/webviewer'
 import './App.css'
@@ -11,7 +15,7 @@ function App() {
     WebViewer(
       {
         path: '/webviewer/lib',
-        l: 'demo:1730280978382:7eee55af0300000000bf0ff233e368b49ea1ef07258817ff54d7ca3d7a',
+        l: 'YOUR_LICENSE_KEY',
         fullAPI: true,
       },
       viewer.current
